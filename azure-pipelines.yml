@@ -12,7 +12,7 @@ pool:
 steps:
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'IaC Dev'
+    azureSubscription: 'IaC_Dev'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: 'az group create --name devopstest --location westus'
