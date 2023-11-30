@@ -15,4 +15,4 @@ steps:
     azureSubscription: 'IaC_Dev'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'az group create --name devopstest --location eastjapan'
+    inlineScript: 'az group create --name devopstest --location japaneast'
